@@ -1,0 +1,43 @@
+#horizonral {
+	display: block;
+	padding-left: 100px;
+}
+
+ul {
+	list-style: none;
+	margin: 10;
+	padding: 10;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+}
+
+
+li a:link{
+    display: inline;
+    padding: 8px;
+    background-color: #transparent;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+    background-color: gray;
+    text-decoration: underline;
+}

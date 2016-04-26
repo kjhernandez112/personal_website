@@ -1,6 +1,7 @@
 body {
-    background-color: grey;
-    color: white;
+    color: black;
+    background-color: #e6e6ff;
+    backface-visibility: 50%;
 }
 
 #horizonral {
@@ -10,8 +11,8 @@ body {
 
 ul {
 	list-style: none;
-	margin: 10;
-	padding: 10;
+	margin: 10px;
+	padding: 5px;
 	overflow: hidden;
 }
 
@@ -26,12 +27,12 @@ li a:link{
 }
 
 a:link {
-    color: beige;
+    color: green;
     background-color: transparent;
     text-decoration: none;
 }
 a:visited {
-    color: beige;
+    color: green;
     background-color: green;
     text-decoration: none;
 }
@@ -46,10 +47,6 @@ a:active {
     text-decoration: underline;
 }
 
-.h2{
- font-size: 35px
-}
-
 .div{ background-color: beige;
  margin: 0 auto;
  text-align: right;
@@ -57,16 +54,28 @@ a:active {
  font-family: times;
  width: 100%;
  display: inline-block;
- float: absolute;
 }
 
 #pics{
  float: right;
 }
 
+.h2{
+ font-size: 35px ;
+}
 
 .paragraph {
-	float: left;
- display: inline-block;
- padding: 10px;
+ display: inline;
+ float:left;
+ margin: 1em;
+ font-size: 20px;
+}
+
+.paragraph2 {
+ display: block;
+ float: left;
+ margin-right: 2em;
+ margin-bottom :2em;
+ font-size: 20px
+ 
 }

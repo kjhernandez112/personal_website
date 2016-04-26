@@ -1,5 +1,10 @@
+body {
+    background-color: grey;
+    color: white;
+}
+
 #horizonral {
-	display: block;
+	display: inline;
 	padding-left: 100px;
 }
 
@@ -11,7 +16,7 @@ ul {
 }
 
 li {
-	float: right;
+	float: left;
 }
 
 li a:link{
@@ -41,20 +46,27 @@ a:active {
     text-decoration: underline;
 }
 
+.h2{
+ font-size: 35px
+}
+
 .div{ background-color: beige;
- color: green;
+ margin: 0 auto;
  text-align: right;
  font-size: 20px;
  font-family: times;
  width: 100%;
  display: inline-block;
+ float: absolute;
 }
+
+#pics{
+ float: right;
+}
+
 
 .paragraph {
-	float: right;
-}
-
-img {
-	float: absolute;
-
+	float: left;
+ display: inline-block;
+ padding: 10px;
 }

@@ -68,16 +68,12 @@ a:active {
  font-size: 20px;
 }
 
-.paragraph2 {
+.list-photos img{
  display: inline;
  float: left;
  margin-right: 1em;
  margin-bottom :2em;
- font-size: 20px
-}
-
-.paragraph3 {
- display: block;
- margin: 1em;
  font-size: 20px;
+ height: 640px;
+ width: 480px;
 }

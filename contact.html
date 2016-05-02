@@ -5,54 +5,55 @@
  <link rel="stylesheet" type="text/css" href="styletest.css">
 </head>
 <body>
-  
-</nav>
-</body>
 <header>
 <h1> Karen J Hernandez<br> Web Developer | Photographer | Soap Maker </h1>
 <nav>
   <ul>
    <li class='nav-link'> 
     <a href='pics.html'target="blank">Birds</a>
-     <li class='nav-link'>
-     <a href='jsgenerator.html'>JS Generator</a>
-     </li>
+   <li class='nav-link'>
+    <a href='jsgenerator.html'>JS Generator</a>
+   </li>
    </li>
    <li class='nav-link'>
-    <a href='contactform.html'>Contact</a>
+    <a href='contact.html'>Contact</a>
    </li>
    <li class='nav-link'>
-    <a href='about.html'>About</a
-     </li>
+    <a href='about.html'>About</a>
+   </li>
   </ul>
 </header>
-<script src='contact.js'></script>
+<script src='contactform.js'></script>
 
-<h3>Please fill out the contact form for any inquiries</h3>
+<h3>Please fill out the contact form for any inquiries.</h3>
 <form action="/login" method="post">
-<label for="First Name">First name</label>
-<input type="text" name="firstname" id="firstname" disabled>
-<label for="Last Name">Last name</label>
-<input type="text" name="lastname" id="lastname" disabled>
+  <label for="First Name">First name</label>
+    <input type="text" name="firstname" id="firstname" disabled>
+  <label for="Last Name">Last name</label>
+    <input type="text" name="lastname" id="lastname" disabled>
 <p>
-<label for="email">Email Address</label>
-<input type="email" name="email-address" id="email" disabled
+  <label for="email">Email Address</label>
+    <input type="email" name="email-address" id="email" disabled
+</p>
 
+<p>
+  <label for="Comments">Comments</label>
+</p>
+<p>
+  <textarea name="comment" disabled>Add your comment here</textarea>
+</p>
 
 <p>
-<label for="Comments">Comments</label>
+  <label for="Last Name">Inquiry about</label>
+    <input type="checkbox" name="photography" value="photography" checked disabled> Photography 
+    <input type="checkbox" name="bathandbody" value="bathandbody" disabled> Bath & Body
+    <input type="checkbox" name="webdev" value="webdev" disabled> Web Development
+</p>
+
 <p>
-<textarea name="comment" disabled>Add your comment here</textarea>
-<p>
-<label for="Last Name">Inquiry about</label>
-<input type="checkbox" name="photography" value="photography" checked disabled> Photography 
-<input type="checkbox" name="bathandbody" value="bathandbody" disabled> Bath & Body
-<input type="checkbox" name="webdev" value="webdev" disabled> Web Development
-<p>
-<input type="submit" name="submit" value="Send" disabled>
+    <input type="submit" name="submit" value="Send" disabled>
+</p>
+
 </form>
-
 </body>
-
-<footer> Copyright 2016 Karen J Hernandez</footer>
 </html>
